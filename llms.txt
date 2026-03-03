@@ -1,0 +1,27 @@
+# Equipped
+
+> IT handled for growing companies.
+
+Equipped provides outsourced IT operations for small and medium businesses (25-75 employees) that don't have a dedicated IT team. We combine AI-powered support, human expertise, and device lifecycle management into a single service, so companies never have to think about IT again.
+
+## What We Do
+
+- AI-powered tech support delivered in Slack, Teams, or Google Chat. Most Tier 1 issues resolved instantly.
+- Human escalation for complex problems. No ticket queues, no waiting days.
+- Device lifecycle management: procurement, setup, shipping, retrieval, and disposal.
+- Employee onboarding: device configured, access granted, welcome guide sent, all before Day 1.
+- Employee offboarding: access revoked across all apps, device retrieved, data wiped.
+- The system learns from every interaction and gets smarter over time, specific to each customer's environment.
+
+## Who We Serve
+
+Our primary customers are companies with 25-75 employees that have no dedicated IT team. The person handling IT is typically a CEO, COO, Head of Finance, or ops lead who wants IT to disappear from their plate entirely. We also serve companies with 75-150 employees where 1-2 IT staff are overwhelmed and need efficiency tools.
+
+## How We're Different
+
+No other provider combines AI-powered support, human support delivery, and device lifecycle management at SMB-friendly pricing. Traditional MSPs are slow, expensive, and opaque. IT software tools (like Risotto, Console, Atera) assume you have an IT team to use them. Device providers (like FirstBase, Deel IT) handle logistics but not support. Equipped handles everything.
+
+## Contact
+
+- Website: https://equipped.dev
+- Book a consultation: https://calendar.app.google/W1gDETcjYwXi9mcH9

@@ -1,0 +1,14 @@
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+node_modules/
+
+# Research docs (private - do not push to public repo)
+Equipped/
+Equipped\ *
+logos/*.webp
+logos/*.avif
+logos/*.jpeg
+logos/*.png
+!logos/normalized/
