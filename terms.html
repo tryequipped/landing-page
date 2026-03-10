@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms of Service — Equipped</title>
+  <meta name="description" content="Equipped's terms of service. The agreement governing use of our IT services.">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --orange: #ff5d00;
+      --orange-light: #fff3eb;
+      --orange-hover: #e85400;
+      --dark: #1a1a1c;
+      --text: #3a3a3c;
+      --text-muted: #8a8a8e;
+      --bg: #ffffff;
+      --bg-warm: #faf9f7;
+      --border: #e8e7e5;
+      --serif: 'Instrument Serif', Georgia, serif;
+      --sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--sans);
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      background: rgba(255,255,255,0.92);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav-inner {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+    }
+
+    .logo {
+      font-family: var(--sans);
+      font-weight: 700;
+      font-size: 1.25rem;
+      color: var(--dark);
+      text-decoration: none;
+      letter-spacing: -0.02em;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .logo-mark {
+      width: 28px;
+      height: 28px;
+      background: var(--orange);
+      border-radius: 7px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .logo-mark svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    .back-link {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    .back-link:hover { color: var(--dark); }
+
+    .legal {
+      padding: 120px 0 80px;
+    }
+
+    .legal h1 {
+      font-family: var(--serif);
+      font-size: clamp(2rem, 4vw, 3rem);
+      color: var(--dark);
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+
+    .legal .effective-date {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 48px;
+    }
+
+    .legal h2 {
+      font-family: var(--sans);
+      font-size: 1.2rem;
+      color: var(--dark);
+      margin-top: 40px;
+      margin-bottom: 12px;
+    }
+
+    .legal p, .legal li {
+      font-size: 0.95rem;
+      line-height: 1.8;
+      color: var(--text);
+      margin-bottom: 16px;
+    }
+
+    .legal ul {
+      padding-left: 24px;
+      margin-bottom: 16px;
+    }
+
+    .legal li {
+      margin-bottom: 8px;
+    }
+
+    .legal a {
+      color: var(--orange);
+      text-decoration: none;
+    }
+
+    .legal a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 32px 0;
+    }
+
+    .footer-inner {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .footer-left {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 24px;
+    }
+
+    .footer-links a {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    .footer-links a:hover { color: var(--dark); }
+
+    @media (max-width: 768px) {
+      .footer-inner { flex-direction: column; text-align: center; gap: 12px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="/" class="logo">
+        <span class="logo-mark">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12"/>
+          </svg>
+        </span>
+        Equipped
+      </a>
+      <a href="/" class="back-link">&larr; Back to home</a>
+    </div>
+  </nav>
+
+  <main class="legal container">
+    <h1>Terms of Service</h1>
+    <p class="effective-date">Effective date: March 10, 2026</p>
+
+    <p>These Terms of Service ("Terms") govern your use of the services provided by Equipped ("we," "us," or "our"). By engaging our services, you ("Customer," "you") agree to these Terms.</p>
+
+    <h2>1. Services</h2>
+    <p>Equipped provides outsourced IT operations for businesses, including but not limited to:</p>
+    <ul>
+      <li>IT support via Slack, Microsoft Teams, and email</li>
+      <li>Employee onboarding and offboarding</li>
+      <li>Device procurement, setup, management, and retrieval</li>
+      <li>Access management and security reviews</li>
+      <li>Vendor and software license management</li>
+    </ul>
+    <p>Specific service scope, pricing, and terms are defined in your service agreement or order form.</p>
+
+    <h2>2. Customer Responsibilities</h2>
+    <ul>
+      <li>Provide timely access to systems, tools, and information necessary for us to deliver services</li>
+      <li>Designate authorized contacts who can approve changes, access requests, and device orders</li>
+      <li>Notify us promptly of employee changes (new hires, departures, role changes)</li>
+      <li>Maintain accurate billing and contact information</li>
+    </ul>
+
+    <h2>3. Access and Permissions</h2>
+    <p>To provide our services, you may grant us administrative access to your IT systems (e.g., Google Workspace, Microsoft 365, MDM platforms). We will use this access solely to deliver the agreed-upon services. We follow the principle of least privilege and will only request the access necessary to perform our work.</p>
+
+    <h2>4. Data and Confidentiality</h2>
+    <p>We treat all customer data as confidential. We will not share, sell, or disclose your data except as necessary to deliver our services or as required by law. Our data handling practices are described in our <a href="/privacy.html">Privacy Policy</a>.</p>
+
+    <h2>5. Service Levels</h2>
+    <p>We strive to respond to all support requests promptly during business hours. Specific response time commitments, if applicable, are defined in your service agreement. We do not guarantee 100% uptime for third-party tools or systems we manage on your behalf.</p>
+
+    <h2>6. Devices</h2>
+    <p>Devices procured through Equipped remain the property of the Customer once paid for. We manage the device lifecycle on your behalf, including setup, shipping, and retrieval. Customers are responsible for the cost of devices, shipping, and any applicable taxes. We are not liable for device damage or loss after delivery to the employee.</p>
+
+    <h2>7. Payment</h2>
+    <p>Fees are billed as specified in your service agreement (typically monthly per employee). Payment is due within 30 days of invoice. We reserve the right to suspend services for accounts more than 30 days past due, with reasonable notice.</p>
+
+    <h2>8. Term and Termination</h2>
+    <p>Services are provided on a month-to-month basis unless otherwise specified in your service agreement. Either party may terminate with 30 days written notice. Upon termination:</p>
+    <ul>
+      <li>We will assist with a reasonable transition of IT responsibilities</li>
+      <li>Administrative access we hold will be revoked or transferred</li>
+      <li>Customer data will be deleted within 90 days per our Privacy Policy</li>
+      <li>Outstanding invoices remain due</li>
+    </ul>
+
+    <h2>9. Limitation of Liability</h2>
+    <p>To the maximum extent permitted by law, Equipped's total liability for any claims arising from our services is limited to the fees paid by you in the 3 months preceding the claim. We are not liable for indirect, incidental, or consequential damages, including lost profits or data loss caused by third-party services.</p>
+
+    <h2>10. Indemnification</h2>
+    <p>You agree to indemnify Equipped against claims arising from your breach of these Terms, your misuse of IT systems, or your failure to comply with applicable laws regarding employee data and access management.</p>
+
+    <h2>11. Changes to These Terms</h2>
+    <p>We may update these Terms from time to time. We will notify active customers of material changes at least 30 days before they take effect. Continued use of our services after changes take effect constitutes acceptance of the updated Terms.</p>
+
+    <h2>12. Governing Law</h2>
+    <p>These Terms are governed by the laws of the State of Delaware, without regard to conflict of law principles.</p>
+
+    <h2>13. Contact Us</h2>
+    <p>If you have questions about these Terms, contact us at:<br>
+    <a href="mailto:hello@equipped.dev">hello@equipped.dev</a></p>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <p class="footer-left">&copy; 2026 Equipped. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="/privacy.html">Privacy</a>
+        <a href="/terms.html">Terms</a>
+        <a href="mailto:hello@equipped.dev">hello@equipped.dev</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

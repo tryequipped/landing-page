@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Equipped</title>
+  <meta name="description" content="Equipped's privacy policy. How we collect, use, and protect your data.">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --orange: #ff5d00;
+      --orange-light: #fff3eb;
+      --orange-hover: #e85400;
+      --dark: #1a1a1c;
+      --text: #3a3a3c;
+      --text-muted: #8a8a8e;
+      --bg: #ffffff;
+      --bg-warm: #faf9f7;
+      --border: #e8e7e5;
+      --serif: 'Instrument Serif', Georgia, serif;
+      --sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--sans);
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      background: rgba(255,255,255,0.92);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav-inner {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+    }
+
+    .logo {
+      font-family: var(--sans);
+      font-weight: 700;
+      font-size: 1.25rem;
+      color: var(--dark);
+      text-decoration: none;
+      letter-spacing: -0.02em;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .logo-mark {
+      width: 28px;
+      height: 28px;
+      background: var(--orange);
+      border-radius: 7px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .logo-mark svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    .back-link {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    .back-link:hover { color: var(--dark); }
+
+    .legal {
+      padding: 120px 0 80px;
+    }
+
+    .legal h1 {
+      font-family: var(--serif);
+      font-size: clamp(2rem, 4vw, 3rem);
+      color: var(--dark);
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+
+    .legal .effective-date {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 48px;
+    }
+
+    .legal h2 {
+      font-family: var(--sans);
+      font-size: 1.2rem;
+      color: var(--dark);
+      margin-top: 40px;
+      margin-bottom: 12px;
+    }
+
+    .legal p, .legal li {
+      font-size: 0.95rem;
+      line-height: 1.8;
+      color: var(--text);
+      margin-bottom: 16px;
+    }
+
+    .legal ul {
+      padding-left: 24px;
+      margin-bottom: 16px;
+    }
+
+    .legal li {
+      margin-bottom: 8px;
+    }
+
+    .legal a {
+      color: var(--orange);
+      text-decoration: none;
+    }
+
+    .legal a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 32px 0;
+    }
+
+    .footer-inner {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .footer-left {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 24px;
+    }
+
+    .footer-links a {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    .footer-links a:hover { color: var(--dark); }
+
+    @media (max-width: 768px) {
+      .footer-inner { flex-direction: column; text-align: center; gap: 12px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="/" class="logo">
+        <span class="logo-mark">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12"/>
+          </svg>
+        </span>
+        Equipped
+      </a>
+      <a href="/" class="back-link">&larr; Back to home</a>
+    </div>
+  </nav>
+
+  <main class="legal container">
+    <h1>Privacy Policy</h1>
+    <p class="effective-date">Effective date: March 10, 2026</p>
+
+    <p>Equipped ("we," "us," or "our") provides outsourced IT operations for growing companies. This Privacy Policy explains how we collect, use, and protect information when you use our services or visit our website at equipped.dev.</p>
+
+    <h2>1. Information We Collect</h2>
+    <p><strong>Information you provide:</strong></p>
+    <ul>
+      <li>Name, email address, and company name when you book a consultation or contact us</li>
+      <li>Employee names, email addresses, and job roles provided by your company for IT support and device management</li>
+      <li>IT support requests and communications via Slack, Microsoft Teams, or email</li>
+      <li>Device information (serial numbers, models, operating systems) for managed devices</li>
+    </ul>
+    <p><strong>Information collected automatically:</strong></p>
+    <ul>
+      <li>Website usage data (pages visited, time on site) via standard analytics</li>
+      <li>Device and browser information when visiting our website</li>
+      <li>IP addresses and approximate location</li>
+    </ul>
+
+    <h2>2. How We Use Your Information</h2>
+    <ul>
+      <li>Provide, maintain, and improve our IT support and device management services</li>
+      <li>Respond to support requests and communicate with your team</li>
+      <li>Manage employee onboarding, offboarding, and access provisioning</li>
+      <li>Manage device lifecycle (procurement, setup, retrieval, disposal)</li>
+      <li>Send service-related communications</li>
+      <li>Improve our AI-assisted support tools and response quality</li>
+    </ul>
+
+    <h2>3. How We Share Your Information</h2>
+    <p>We do not sell your personal information. We may share information with:</p>
+    <ul>
+      <li><strong>Service providers:</strong> Third-party tools we use to deliver our services (e.g., device management platforms, communication tools, cloud infrastructure)</li>
+      <li><strong>Your organization:</strong> We share IT support activity and device information with authorized administrators at your company</li>
+      <li><strong>Legal requirements:</strong> When required by law, legal process, or to protect our rights</li>
+    </ul>
+
+    <h2>4. Data Security</h2>
+    <p>We implement industry-standard security measures to protect your data, including encryption in transit and at rest, access controls, and regular security reviews. We limit access to personal information to team members who need it to provide our services.</p>
+
+    <h2>5. Data Retention</h2>
+    <p>We retain your information for as long as your company maintains an active service agreement with us. Upon termination, we delete or anonymize your data within 90 days, unless retention is required by law. Support logs and device records are retained for the duration of service to ensure continuity.</p>
+
+    <h2>6. Your Rights</h2>
+    <p>Depending on your location, you may have the right to:</p>
+    <ul>
+      <li>Access the personal information we hold about you</li>
+      <li>Request correction of inaccurate information</li>
+      <li>Request deletion of your information</li>
+      <li>Opt out of non-essential communications</li>
+    </ul>
+    <p>To exercise any of these rights, contact us at <a href="mailto:hello@equipped.dev">hello@equipped.dev</a>.</p>
+
+    <h2>7. Cookies</h2>
+    <p>Our website uses minimal cookies for basic analytics and site functionality. We do not use advertising cookies or cross-site tracking.</p>
+
+    <h2>8. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will notify active customers of material changes via email. The "Effective date" at the top of this page indicates when the policy was last revised.</p>
+
+    <h2>9. Contact Us</h2>
+    <p>If you have questions about this Privacy Policy or our data practices, contact us at:<br>
+    <a href="mailto:hello@equipped.dev">hello@equipped.dev</a></p>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <p class="footer-left">&copy; 2026 Equipped. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="/privacy.html">Privacy</a>
+        <a href="/terms.html">Terms</a>
+        <a href="mailto:hello@equipped.dev">hello@equipped.dev</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
