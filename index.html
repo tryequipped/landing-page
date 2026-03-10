@@ -370,8 +370,17 @@
 
     .pain-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      grid-template-columns: repeat(3, 1fr);
       gap: 16px;
+    }
+
+    .pain-statement {
+      text-align: center;
+      font-family: var(--serif);
+      font-size: clamp(1.4rem, 3vw, 1.8rem);
+      color: var(--dark);
+      font-weight: 700;
+      margin-top: 40px;
     }
 
     .pain-card {
@@ -850,6 +859,12 @@
       </div>
       <div class="pain-grid">
         <div class="pain-card reveal">
+          <div class="pain-icon">🕐</div>
+          <h3>7 hours to onboard one hire</h3>
+          <p>Provisioning devices, granting access, configuring tools. For every single new employee.</p>
+          <span class="pain-stat">Ponemon / Cerby 2023</span>
+        </div>
+        <div class="pain-card reveal">
           <div class="pain-icon">⏱</div>
           <h3>3.2 hours lost per incident</h3>
           <p>Every time an employee hits an IT issue, they lose over three hours of productive work waiting for a fix.</p>
@@ -861,19 +876,8 @@
           <p>Most companies forget to revoke access when employees depart, leaving sensitive systems exposed.</p>
           <span class="pain-stat">Beyond Identity Research</span>
         </div>
-        <div class="pain-card reveal">
-          <div class="pain-icon">🕐</div>
-          <h3>7 hours to onboard one hire</h3>
-          <p>Provisioning devices, granting access, configuring tools. For every single new employee.</p>
-          <span class="pain-stat">Ponemon / Cerby 2023</span>
-        </div>
-        <div class="pain-card reveal">
-          <div class="pain-icon">💸</div>
-          <h3>$150-250/user/mo for an MSP</h3>
-          <p>Traditional managed service providers charge enterprise prices, respond slowly, and lack transparency.</p>
-          <span class="pain-stat">61% cite slow response as top complaint</span>
-        </div>
       </div>
+      <p class="pain-statement reveal">Equipped handles all of it.</p>
     </div>
   </section>
 
@@ -1040,8 +1044,8 @@
     <div class="container footer-inner">
       <p class="footer-left">&copy; 2026 Equipped. All rights reserved.</p>
       <div class="footer-links">
-        <a href="#">Privacy</a>
-        <a href="#">Terms</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/terms.html">Terms</a>
         <a href="mailto:hello@equipped.dev">hello@equipped.dev</a>
       </div>
     </div>
