@@ -205,32 +205,6 @@
       z-index: 0;
     }
 
-    .hero-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 6px 14px;
-      background: var(--orange-light);
-      color: var(--orange);
-      font-size: 0.8rem;
-      font-weight: 600;
-      border-radius: 100px;
-      margin-bottom: 28px;
-      position: relative;
-      z-index: 1;
-      opacity: 0;
-      animation: fadeUp 0.6s ease forwards;
-    }
-
-    .hero-badge::before {
-      content: '';
-      width: 6px;
-      height: 6px;
-      background: var(--orange);
-      border-radius: 50%;
-      animation: pulse 2s ease infinite;
-    }
-
     .hero h1 {
       font-family: var(--serif);
       font-size: clamp(3rem, 7vw, 5.5rem);
@@ -241,7 +215,7 @@
       position: relative;
       z-index: 1;
       opacity: 0;
-      animation: fadeUp 0.6s ease 0.1s forwards;
+      animation: fadeUp 0.6s ease forwards;
     }
 
     .hero h1 em {
@@ -258,7 +232,7 @@
       position: relative;
       z-index: 1;
       opacity: 0;
-      animation: fadeUp 0.6s ease 0.2s forwards;
+      animation: fadeUp 0.6s ease 0.1s forwards;
     }
 
     .hero-actions {
@@ -269,7 +243,7 @@
       position: relative;
       z-index: 1;
       opacity: 0;
-      animation: fadeUp 0.6s ease 0.3s forwards;
+      animation: fadeUp 0.6s ease 0.2s forwards;
     }
 
     .hero-proof {
@@ -281,7 +255,7 @@
       position: relative;
       z-index: 1;
       opacity: 0;
-      animation: fadeUp 0.6s ease 0.4s forwards;
+      animation: fadeUp 0.6s ease 0.3s forwards;
     }
 
     .avatar-stack {
@@ -826,10 +800,9 @@
   <!-- Hero -->
   <section class="hero">
     <div class="container">
-      <div class="hero-badge">Now accepting new customers</div>
       <h1>IT <em>handled</em> for you.</h1>
       <p class="hero-sub">
-        Your team has IT problems. You don't have an IT team. Equipped combines AI, human support, and device management so you never have to think about IT again.
+        Your team has IT problems. You don't have an IT team. Equipped is your IT team. Real humans who know your business, backed by AI that makes us faster than any IT shop.
       </p>
       <div class="hero-actions">
         <a href="#book" class="btn-primary">
@@ -896,7 +869,7 @@
         </div>
         <div class="pain-card reveal">
           <div class="pain-icon">💸</div>
-          <h3>$100-250/user/mo for an MSP</h3>
+          <h3>$150-250/user/mo for an MSP</h3>
           <p>Traditional managed service providers charge enterprise prices, respond slowly, and lack transparency.</p>
           <span class="pain-stat">61% cite slow response as top complaint</span>
         </div>
@@ -920,7 +893,7 @@
         <div class="step reveal">
           <div class="step-num">02</div>
           <h3>Your team gets instant support</h3>
-          <p>Employees message Equipped in Slack or Teams. Our AI resolves most issues instantly. Humans step in for everything else.</p>
+          <p>Employees message Equipped in Slack or Teams. Our team responds fast, backed by AI that handles the routine stuff instantly so we can focus on what actually needs a human.</p>
         </div>
         <div class="step reveal">
           <div class="step-num">03</div>
@@ -942,13 +915,13 @@
       <div class="feature-grid">
         <div class="feature-card reveal">
           <div class="feature-icon">⚡</div>
-          <h3>AI-Powered Support</h3>
-          <p>Instant Tier 1 resolution in Slack or Teams. Password resets, access requests, connectivity issues, all handled in seconds.</p>
+          <h3>Expert Support, AI-Fast</h3>
+          <p>Your team messages us in Slack or Teams. Our team knows your setup and resolves most issues in minutes. AI handles the routine stuff instantly so we never slow down.</p>
         </div>
         <div class="feature-card reveal">
           <div class="feature-icon">👤</div>
-          <h3>Human Escalation</h3>
-          <p>When AI can't solve it, a real person takes over. No ticket queues, no waiting days. Complex problems get expert attention fast.</p>
+          <h3>Real People, No Ticket Queue</h3>
+          <p>Every request gets a real person behind it. No bots pretending to be human, no waiting days for a callback. Complex problems get expert attention fast.</p>
         </div>
         <div class="feature-card reveal">
           <div class="feature-icon">💻</div>
@@ -991,7 +964,7 @@
       <div class="reveal">
         <p class="section-label">Why Equipped</p>
         <h2 class="section-heading">The only solution that<br>combines all three.</h2>
-        <p class="section-sub">Other providers give you tools, or people, or devices. Never all three at SMB-friendly pricing.</p>
+        <p class="section-sub">Other providers give you people, or tools, or devices. Never all three at SMB-friendly pricing.</p>
       </div>
       <div class="compare-table reveal">
         <table>
@@ -1006,16 +979,16 @@
           </thead>
           <tbody>
             <tr>
-              <td>AI-powered support</td>
+              <td>Dedicated support team</td>
+              <td class="check" style="color:var(--text)">✓</td>
               <td class="x-mark">—</td>
-              <td class="check">✓</td>
               <td class="x-mark">—</td>
               <td class="check">✓</td>
             </tr>
             <tr>
-              <td>Human support</td>
-              <td class="check" style="color:var(--text)">✓</td>
+              <td>Instant response times</td>
               <td class="x-mark">—</td>
+              <td class="check" style="color:var(--text)">✓</td>
               <td class="x-mark">—</td>
               <td class="check">✓</td>
             </tr>
